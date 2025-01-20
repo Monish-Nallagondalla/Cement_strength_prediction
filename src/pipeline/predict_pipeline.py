@@ -45,9 +45,9 @@ class PredictionPipeline:
     def predict(self,features):
         try:
             model_path = download_model(
-                bucket_name='test_bucket_123'
-                bucket_file_name='model.pkl'
-                dest_file_name='model.pkl',
+                bucket_name='test_bucket_123',
+                bucket_file_name='model.pkl',
+                dest_file_name='model.pkl'
             )     
 
             model = load_object(file_path=model_path)
