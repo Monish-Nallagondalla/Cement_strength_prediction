@@ -21,6 +21,17 @@ def read_yaml_file(filename:str)-> dict:
     except Exception as e:
         raise CustomException (e,sys) from e 
     
+
+def read_schema_config_file() -> dict:
+    try:
+        SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
+        schema_config = read_yaml_file(SCHEMA_FILE_PATH)
+
+        return schema_config
+
+    except Exception as e:
+        raise CustomException(e, sys) from e    
+    
 def export_collection_as_dataframe(collection_name ,db_name):
     try:
         mongo_client = MongoClient(os.getenv('MONGO_dB_URL'))
