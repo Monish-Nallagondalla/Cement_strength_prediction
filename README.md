@@ -2,11 +2,26 @@
 
 ![Python](https://img.shields.io/badge/Language-Python-blue) ![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-## 📜 Description
+## 1. 📜 Description
 This project predicts the compressive strength of concrete based on its components and other factors. Using a dataset containing detailed information about cement mixtures and their curing age, the project employs machine learning models to optimize predictions and aid in quality assurance and material selection for concrete production.
 
-## 🏗️ Project Structure
+## 2. 🏗️ Project Structure
 The repository is organized into logical modules for clarity and scalability:
+
+### Core Components
+- **`config/`**: Configuration files for model settings and data schema.
+- **`src/`**: Source code for the application, including components for data handling and pipelines.
+- **`templates/`**: HTML templates for the web app.
+
+### Main Files
+- **`application.py`**: Main application script to run the project.
+- **`cement_data.csv`**: Dataset for training and evaluation.
+- **`requirements.txt`**: Python dependencies.
+- **`setup.py`**: Setup script for package installation.
+- **`LICENSE`**: Licensing information.
+- **`README.md`**: Documentation file (this file).
+
+### Detailed Project Structure:
 
 ```plaintext
 Cement_strength_prediction/
@@ -47,7 +62,7 @@ Cement_strength_prediction/
 └── README.md             # Documentation (this file)
 ```
 
-## 📊 Dataset Overview
+## 3.  📊 Dataset Overview
 The dataset comprises concrete mix details and their corresponding compressive strength measurements (in MPa).  
 Key features:
 - **Cement (kg in a m³ mixture)**: Amount of cement used.
@@ -65,13 +80,13 @@ Sample data:
 |--------|------|---------|-------|------------------|------------------|----------------|-----|----------------|
 | 540.0  | 0.0  | 0.0     | 162.0 | 2.5              | 1040.0           | 676.0          | 28  | 79.99          |
 
-## 🚀 Features
+## 4.  🚀 Features
 - **Data Analysis**: Comprehensive exploratory data analysis (EDA) to identify patterns and relationships.
 - **Model Training**: Machine learning pipelines to predict concrete strength.
 - **Web Application**: An intuitive interface for data input and predictions.
 - **Customizable Configurations**: YAML-based configurations for models and data schema.
 
-## ⚙️ Installation
+## 5.  ⚙️ Installation
 ### Prerequisites
 - Python 3.8 or later
 - Libraries specified in `requirements.txt`
@@ -92,7 +107,7 @@ Sample data:
    python setup.py install
    ```
 
-## 📂 Usage
+## 6. 📂 Usage
 ### Running the Application
 1. Execute the main application script:
    ```bash
@@ -104,16 +119,16 @@ Sample data:
 - Analyze data trends in `notebooks/eda.ipynb`.
 - Train and evaluate models using `notebooks/cement_strength.ipynb`.
 
-## 🤝 Contributing
+## 7. 🤝 Contributing
 We welcome contributions! Please:
 1. Fork the repository.
 2. Create a feature branch.
 3. Submit a pull request with detailed descriptions.
 
-## 📝 License
+## 8. 📝 License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
-## 📬 Contact
+## 9. 📬 Contact
 For questions or feedback:
 - **GitHub**: [Monish-Nallagondalla](https://github.com/Monish-Nallagondalla)
 - **Email**: [YourEmail@example.com]
