@@ -131,5 +131,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ## 9. 📬 Contact
 For questions or feedback:
 - **GitHub**: [Monish-Nallagondalla](https://github.com/Monish-Nallagondalla)
-- **Email**: [YourEmail@example.com]
+- **Email**: [nsmonish@gmail.com]
 
