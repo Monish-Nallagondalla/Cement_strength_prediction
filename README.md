@@ -1,15 +1,10 @@
-```markdown
 # Cement Strength Prediction
 
 ![Python](https://img.shields.io/badge/Language-Python-blue) ![MIT License](https://img.shields.io/badge/License-MIT-green)
-```
 
-```markdown
 ## 📜 Description
 This project predicts the compressive strength of concrete based on its components and other factors. Using a dataset containing detailed information about cement mixtures and their curing age, the project employs machine learning models to optimize predictions and aid in quality assurance and material selection for concrete production.
-```
 
-```markdown
 ## 🏗️ Project Structure
 The repository is organized into logical modules for clarity and scalability:
 
@@ -51,9 +46,7 @@ Cement_strength_prediction/
 ├── setup.py              # Setup script for package installation
 └── README.md             # Documentation (this file)
 ```
-```
 
-```markdown
 ## 📊 Dataset Overview
 The dataset comprises concrete mix details and their corresponding compressive strength measurements (in MPa).  
 Key features:
@@ -71,17 +64,13 @@ Sample data:
 | Cement | Slag | Fly Ash | Water | Superplasticizer | Coarse Aggregate | Fine Aggregate | Age | Strength (MPa) |
 |--------|------|---------|-------|------------------|------------------|----------------|-----|----------------|
 | 540.0  | 0.0  | 0.0     | 162.0 | 2.5              | 1040.0           | 676.0          | 28  | 79.99          |
-```
 
-```markdown
 ## 🚀 Features
 - **Data Analysis**: Comprehensive exploratory data analysis (EDA) to identify patterns and relationships.
 - **Model Training**: Machine learning pipelines to predict concrete strength.
 - **Web Application**: An intuitive interface for data input and predictions.
 - **Customizable Configurations**: YAML-based configurations for models and data schema.
-```
 
-```markdown
 ## ⚙️ Installation
 ### Prerequisites
 - Python 3.8 or later
@@ -102,9 +91,7 @@ Sample data:
    ```bash
    python setup.py install
    ```
-```
 
-```markdown
 ## 📂 Usage
 ### Running the Application
 1. Execute the main application script:
@@ -116,24 +103,18 @@ Sample data:
 ### Notebooks
 - Analyze data trends in `notebooks/eda.ipynb`.
 - Train and evaluate models using `notebooks/cement_strength.ipynb`.
-```
 
-```markdown
 ## 🤝 Contributing
 We welcome contributions! Please:
 1. Fork the repository.
 2. Create a feature branch.
 3. Submit a pull request with detailed descriptions.
-```
 
-```markdown
 ## 📝 License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
-```
 
-```markdown
 ## 📬 Contact
 For questions or feedback:
 - **GitHub**: [Monish-Nallagondalla](https://github.com/Monish-Nallagondalla)
 - **Email**: [YourEmail@example.com]
-```
+
